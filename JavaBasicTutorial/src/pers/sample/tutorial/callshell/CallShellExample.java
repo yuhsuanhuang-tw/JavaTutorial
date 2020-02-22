@@ -1,3 +1,7 @@
+/**
+ * @author Yu-Hsuan Huang
+ * 
+ */
 package pers.sample.tutorial.callshell;
 
 import java.io.BufferedReader;
@@ -16,8 +20,10 @@ public class CallShellExample {
 	public static void callShellCommand(String command) {
 		try {
 			String line;
+			//Put your command in exec method
 			Process p = Runtime.getRuntime().exec(command);
 
+			//This part use to read information on the terminal screen
 			BufferedReader in = new BufferedReader(new InputStreamReader(p.getInputStream()));
 			while ((line = in.readLine()) != null) {
 				System.out.println(line);
@@ -31,6 +37,7 @@ public class CallShellExample {
 	public static void callShellFile(String sh, String resartFilePath) {
 		String command = sh + " " + resartFilePath;
 		try {
+			//You can put the call shell command in exec method
 			Process p = Runtime.getRuntime().exec(command);
 		} catch (IOException e) {
 			e.printStackTrace();

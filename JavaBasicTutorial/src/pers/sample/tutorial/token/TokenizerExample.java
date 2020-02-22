@@ -1,3 +1,10 @@
+/**
+ * @author Yu-Hsuan Huang
+ * 
+ * How to use different way to separate the string
+ * 	1. split
+ * 	2. StringTokenizer
+ */
 package pers.sample.tutorial.token;
 
 import java.util.StringTokenizer;
