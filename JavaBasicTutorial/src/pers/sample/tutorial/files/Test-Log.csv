@@ -1,0 +1,5 @@
+﻿id,user_id,source_id,destination_id,procedure_name,schema_name,table_name,action_type,sql_script,sql_status,sql_rows,sql_result,ss_seq,created_at
+6738,999999,10.112.215.118,10.1.9.49,null,BOTIMA_DEV,null,L,null,101,null,IMALOAD - Login successful : 測試員,0,2017/11/02 10:51:27
+6739,999999,10.112.215.118,10.1.9.49,null,BOTIMA_DEV,null,L,null,101,null,IMALOAD - Login successful : 測試員,0,2017/11/02 10:53:34
+7716,admin,10.112.215.234,10.1.9.49,null,BOTIMA,null,L,null,101,null,Login successful:admin,0,2017/11/02 10:05:29
+7723,116717,10.112.215.118,10.1.9.49,null,BOTIMA,null,L,null,101,null,Login successful:116717,0,2017/11/02 10:44:50
