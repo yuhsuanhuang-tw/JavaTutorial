@@ -1,6 +1,8 @@
 /**
  * @author Yu-Hsuan Huang
  * 
+ * Data abstraction is the process of hiding certain details and showing only essential information to the user.
+ * 
  * Check the class by this order:
  * 	1. ParentsAbstractClass
  *  2. AbstractClass
