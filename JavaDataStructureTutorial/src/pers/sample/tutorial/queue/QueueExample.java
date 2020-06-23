@@ -40,6 +40,10 @@ public class QueueExample {
 		System.out.println(queue.remove());
 		System.out.println(queue.remove());
 		
+		
+		//Another way to achieve queue
+		//interface queue
+		
 	}
 
 }

@@ -41,6 +41,9 @@ public class StackExample {
 		System.out.println(stack.removeLast());
 		System.out.println(stack.removeLast());
 		
+		//another way to achieve stack
+		//use Stack class
+		
 	}
 	
 }
