@@ -1,3 +1,9 @@
+/**
+ * @author Yu-Hsuan Huang
+ * 
+ * List example includes the ArrayList
+ * 
+ */
 package pers.sample.tutorial.list;
 
 import java.util.ArrayList;
