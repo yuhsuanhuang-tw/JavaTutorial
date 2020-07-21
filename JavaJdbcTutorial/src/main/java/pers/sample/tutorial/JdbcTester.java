@@ -1,5 +1,5 @@
 /**
- * @author hsuanhuang
+ * @author Yu-Hsuan Huang
  * 
  * Use JDBC connect to MySQL database.
  * 
